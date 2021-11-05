@@ -1,0 +1,80 @@
+/*index.html*/
+.navbar {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#jumbotron {
+  background: url(imagenes/ba3.jpg) no-repeat center center;
+  background-size: 100% 100%;
+  height: 500px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  padding-top: 50px !important;
+}
+
+#jumbotron p {
+  font-size: 18px;
+  text-align: right;
+}
+
+button[type="submit"] {
+  color: #fff;
+  background-color: #96c93e;
+}
+
+#footer {
+  background-color: #1e516e;
+}
+
+#footer a:hover {
+  color: rgba(172, 182, 31, 0.609);
+}
+
+#honolulu {
+  font-family: "Rubik", sans-serif;
+}
+
+@media (max-width: 767px) {
+  #jumbotron {
+    height: 400px;
+  }
+}
+
+@media (max-width: 575px) {
+  #jumbotron {
+    height: 300px;
+    padding-top: 3px !important;
+  }
+
+  #jumbotron p {
+    font-size: 12px;
+  }
+
+  #jumbotron .btn {
+    width: 120px;
+    font-size: 10px;
+    padding: 2px;
+  }
+}
+
+/*tickets.html*/
+#precio{
+    background-color:#CCE5FF ;
+    color: #3369F7;
+}
+
+#botones .btn{
+    background-color: #97C93E;
+    width: 100%;
+    color: #fff;
+}
+
+#main{
+    min-height: 100vh;
+}
+
+#mailAviso{
+  font-size: 0.7rem;
+}
+
